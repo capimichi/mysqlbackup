@@ -1,0 +1,14 @@
+{
+    "name": "capimichi/mysqlbackup",
+    "authors": [
+        {
+            "name": "Michele Capicchioni",
+            "email": "capimichi@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^3.4",
+        "google/apiclient": "^2.0",
+        "monolog/monolog": "^1.23"
+    }
+}

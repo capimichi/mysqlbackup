@@ -1,0 +1,6 @@
+configuration.yaml
+/vendor
+/composer.lock
+/credentials.json
+/token.json
+.idea
