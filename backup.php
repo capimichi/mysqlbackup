@@ -34,9 +34,9 @@ try {
 
         if ($config['db_compress']) {
             $outputFile .= ".gz";
-            $command = "mysqldump --opt -h {dbhost}{dbport} -u{dbuser} -p{dbpassword} {dbname} 2>&1 | gzip > {output}";
+            $command = "mysqldump --opt -h {dbhost}{dbport} -u{dbuser} -p{dbpassword} {dbname} | gzip > {output}";
         } else {
-            $command = "mysqldump --opt -h {dbhost}{dbport} -u{dbuser} -p{dbpassword} {dbname} 2>&1 > {output}";
+            $command = "mysqldump --opt -h {dbhost}{dbport} -u{dbuser} -p{dbpassword} {dbname} > {output}";
         }
 
         $replaces = [
